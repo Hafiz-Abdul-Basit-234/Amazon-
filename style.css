@@ -1468,3 +1468,423 @@ body {
 }
 
 
+/* =========================
+   COMPLETE RESPONSIVE FIX
+   SAME DESIGN - SAME IMAGES
+   ONLY RESPONSIVE ADDED
+========================= */
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/* =========================
+   BIG SCREEN
+========================= */
+
+.hero-img,
+.hero-2,
+.sec-5,
+.last,
+.footer,
+.ender{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+/* =========================
+   LAPTOP RESPONSIVE
+========================= */
+
+@media (max-width:1200px){
+
+  .hero-sec,
+  .two,
+  .three,
+  .four,
+  .pehla,
+  .dossra,
+  .tesra,
+  .chohta,
+  .section,
+  .section-2,
+  .section-4,
+  .section-5,
+  .roman1,
+  .roman2,
+  .roman3,
+  .roman4{
+      width:48%;
+      margin-top:20px;
+  }
+
+  .hero-img{
+      height:auto;
+      padding-bottom:40px;
+      gap:20px;
+  }
+
+  .hero-2,
+  .sec-5,
+  .last{
+      justify-content:center;
+      gap:20px;
+  }
+
+}
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media (max-width:992px){
+
+  nav{
+      flex-wrap:wrap;
+      height:auto;
+      padding-bottom:10px;
+  }
+
+  .nav-sear{
+      width:95%;
+      margin:10px auto;
+  }
+
+  .nav-2{
+      flex-wrap:wrap;
+      height:auto;
+      padding:10px;
+  }
+
+  .hero-img{
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+      height:auto;
+      background-size:cover;
+      background-position:center;
+      padding-top:20px;
+      padding-bottom:30px;
+  }
+
+  .hero-sec,
+  .two,
+  .three,
+  .four,
+  .pehla,
+  .dossra,
+  .tesra,
+  .chohta,
+  .section,
+  .section-2,
+  .section-4,
+  .section-5,
+  .roman1,
+  .roman2,
+  .roman3,
+  .roman4{
+      width:90%;
+      height:auto;
+      padding-bottom:20px;
+      margin-top:20px;
+  }
+
+  img{
+      max-width:100%;
+      height:auto;
+  }
+
+  .more,
+  .sec-more,
+  .endmore{
+      width:95%;
+      overflow-x:auto;
+      white-space:nowrap;
+  }
+
+  .footer{
+      height:auto;
+      flex-wrap:wrap;
+      padding:30px 20px;
+      gap:30px;
+  }
+
+  .ender{
+      height:auto;
+      flex-wrap:wrap;
+      padding:20px;
+      gap:20px;
+  }
+
+  .till{
+      flex-wrap:wrap;
+      height:auto;
+      justify-content:center;
+      gap:15px;
+      padding:20px 0;
+  }
+
+  .till-img{
+      margin-left:0;
+  }
+
+  .lan,
+  .PKR,
+  .flag{
+      margin-left:0;
+  }
+
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+  nav{
+      width:100%;
+      gap:10px;
+      align-items:center;
+  }
+
+  .nav-img{
+      width:100px;
+      height:50px;
+  }
+
+  .mushkil{
+      width:auto;
+  }
+
+  .nav-sear{
+      width:100%;
+      padding:0 10px;
+      margin-left:0;
+  }
+
+  .nav-sear select{
+      width:60px;
+      margin-left:0;
+  }
+
+  .nav-sear input{
+      width:100%;
+  }
+
+  .nav-sear i{
+      width:55px;
+      text-align:center;
+  }
+
+  .cart{
+      margin-left:10px;
+  }
+
+  .nav-2{
+      gap:15px;
+      justify-content:flex-start;
+  }
+
+  .hero-img{
+      min-height:auto;
+      height:auto;
+      flex-direction:column;
+      background-size:cover;
+      background-position:center;
+      align-items:center;
+  }
+
+  #hero{
+      height:auto;
+  }
+
+  .hero-sec,
+  .two,
+  .three,
+  .four,
+  .pehla,
+  .dossra,
+  .tesra,
+  .chohta,
+  .section,
+  .section-2,
+  .section-4,
+  .section-5,
+  .roman1,
+  .roman2,
+  .roman3,
+  .roman4{
+      width:95%;
+      margin-top:20px;
+  }
+
+  .hero-2,
+  .sec-5,
+  .last{
+      flex-direction:column;
+      align-items:center;
+  }
+
+  .footer{
+      flex-direction:column;
+      text-align:center;
+      align-items:center;
+  }
+
+  .ender{
+      flex-direction:column;
+      align-items:center;
+      text-align:center;
+  }
+
+  .notice{
+      height:auto;
+      padding:15px;
+  }
+
+  .notice-per,
+  .notice-2{
+      flex-direction:column;
+      text-align:center;
+      gap:5px;
+  }
+
+  h3{
+      font-size:20px !important;
+  }
+
+  p{
+      font-size:14px !important;
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width:480px){
+
+  .hero-img{
+      background-size:cover;
+      background-position:center;
+      padding-bottom:20px;
+  }
+
+  .slider-arrow{
+      font-size:25px;
+      padding:5px;
+  }
+
+  .nav-img{
+      width:85px;
+      height:40px;
+  }
+
+  .nav-sear{
+      padding:0 5px;
+  }
+
+  .nav-sear select{
+      width:50px;
+  }
+
+  .nav-sear i{
+      width:45px;
+      font-size:18px;
+  }
+
+  .hero-sec,
+  .two,
+  .three,
+  .four,
+  .pehla,
+  .dossra,
+  .tesra,
+  .chohta,
+  .section,
+  .section-2,
+  .section-4,
+  .section-5,
+  .roman1,
+  .roman2,
+  .roman3,
+  .roman4{
+      width:97%;
+  }
+
+  .more img,
+  .sec-more img,
+  .endmore img{
+      margin-left:10px;
+  }
+
+  .till{
+      padding:15px;
+  }
+
+  .lan,
+  .PKR,
+  .flag{
+      width:90%;
+  }
+
+  .footer h3{
+      margin-top:20px;
+  }
+
+}
+
+/* =========================
+   IMAGE FIX
+========================= */
+
+.hero-sec img,
+.two img,
+.three img,
+.four img,
+.pehla img,
+.dossra img,
+.tesra img,
+.chohta img,
+.section img,
+.section-2 img,
+.section-4 img,
+.section-5 img,
+.roman1 img,
+.roman2 img,
+.roman3 img,
+.roman4 img{
+    max-width:100%;
+    object-fit:cover;
+}
+
+/* =========================
+   SCROLL FIX
+========================= */
+
+.more,
+.sec-more,
+.endmore{
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+/* =========================
+   FINAL AMAZON STYLE FIX
+========================= */
+
+.hero-img{
+    row-gap:20px;
+}
+
+.hero-2,
+.sec-5,
+.last{
+    row-gap:20px;
+}
