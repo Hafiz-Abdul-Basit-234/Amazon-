@@ -1840,9 +1840,7 @@ body{
 
 }
 
-/* =========================
-   IMAGE FIX
-========================= */
+
 
 .hero-sec img,
 .two img,
@@ -1864,20 +1862,12 @@ body{
     object-fit:cover;
 }
 
-/* =========================
-   SCROLL FIX
-========================= */
-
 .more,
 .sec-more,
 .endmore{
     overflow-x:auto;
     overflow-y:hidden;
 }
-
-/* =========================
-   FINAL AMAZON STYLE FIX
-========================= */
 
 .hero-img{
     row-gap:20px;
@@ -1887,4 +1877,31 @@ body{
 .sec-5,
 .last{
     row-gap:20px;
+}
+/* TABLET */
+@media (max-width: 990px) {
+  .hero-img {
+    background-image: none !important;
+    background-color: #d6d6d6; /* optional */
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .hero-img {
+    background-image: none;
+    background-color: #d6d6d6;
+  }
+}
+@media (max-width: 768px) {
+  .hero-img {
+    background-image: none;
+  }
+  .sec-more{
+    display: none;
+  } .more{
+    display: none;
+  } .endmore{
+    display: none;
+  }
 }
